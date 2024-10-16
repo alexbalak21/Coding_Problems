@@ -7,3 +7,5 @@ function marge(intersections = []) {
     else result.push([min < intersection[0] ? min : intersection[0], max > intersection[1] ? max : intersection[1]])
   })
 }
+
+console.log("Test")
